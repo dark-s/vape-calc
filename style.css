@@ -1,0 +1,21 @@
+.submit_button{
+	text-align: center;
+	margin-top: 5px
+}
+
+.input_row{
+	margin-top: 5px;
+}
+
+.result{
+	margin: 10px auto;
+}
+
+.disabled{
+	display: none;
+}
+
+.form_wrap{
+	max-width: 645px;
+	margin: 0 auto
+}
