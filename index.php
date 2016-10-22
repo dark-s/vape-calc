@@ -32,7 +32,7 @@
 								<tr>
 									<td style="border: 0; background-color: #3e577e; text-align: center;" class="article" colspan="3"><strong><span style="color: #ffffff;">Результат</span></strong></td>
 								</tr>
-								<tr>
+								<tr> 
 									<td style="text-align: center;"><strong>компонент</strong></td>
 									<td style="text-align: center;"><strong>кол-во капель</strong></td>
 									<td style="text-align: center;"><strong>миллилитры</strong></td>
