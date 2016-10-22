@@ -15,7 +15,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="container">
+		<div class="container"> 
 			<div class="form_wrap">
 				<form action="/index.php" id="calc_form" method="post">
 					<div class="row input_row"><span class="col-md-6">Крепость в базовой жидкости: </span><input title="Крепость в базовой жидкости" class="col-md-6" name="base_nic" type="text"></div>
