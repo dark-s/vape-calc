@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Test form</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="style.css">
 		<!-- jQuery -->
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<!-- Latest compiled and minified CSS -->
@@ -71,6 +71,6 @@
 			</div>
 		</div>
 		<!-- Ajax -->
-		<script src="/ajax.js" type="text/javascript"></script>
+		<script src="ajax.js" type="text/javascript"></script>
 	</body>
 </html>
