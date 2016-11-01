@@ -26,7 +26,7 @@
 		if($base_nic > 0 && $output_nic > 0){
 			$json['base'] = ($liq_bulk / ($base_nic / $output_nic));
 		} else {
-			$json['base'] = 0;
+			$json['base'] = 0; 
 		}
 
 		$json['n_base'] = ($drops * $json['base']);
