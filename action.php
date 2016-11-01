@@ -1,13 +1,13 @@
 <?php
 	if ($_POST){
-		$base_nic = htmlspecialchars(trim(intval($_POST['base_nic'])));
-		$output_nic = htmlspecialchars(trim(intval($_POST['output_nic'])));
-		$pg = htmlspecialchars(trim(intval($_POST['pg'])));
-		$vg = htmlspecialchars(trim(intval($_POST['vg'])));
-		$dist = htmlspecialchars(trim(intval($_POST['dist'])));
-		$aroma = htmlspecialchars(trim(intval($_POST['aroma'])));
-		$liq_bulk = htmlspecialchars(trim(intval($_POST['liq_bulk'])));
-		$drops = htmlspecialchars(trim(intval($_POST['drops'])));
+		$base_nic = htmlspecialchars(trim(floatval($_POST['base_nic'])));
+		$output_nic = htmlspecialchars(trim(floatval($_POST['output_nic'])));
+		$pg = htmlspecialchars(trim(floatval($_POST['pg'])));
+		$vg = htmlspecialchars(trim(floatval($_POST['vg'])));
+		$dist = htmlspecialchars(trim(floatval($_POST['dist'])));
+		$aroma = htmlspecialchars(trim(floatval($_POST['aroma'])));
+		$liq_bulk = htmlspecialchars(trim(floatval($_POST['liq_bulk'])));
+		$drops = htmlspecialchars(trim(floatval($_POST['drops'])));
 
 		$json = array();
 
@@ -31,11 +31,11 @@
 
 		$json['n_base'] = ($drops * $json['base']);
 
-		$base2 = $json['base'] * 1;
+		$base2 = (float)$json['base'];
 
 		$json['aroma_out'] = ($liq_bulk * ($aroma / 100));
 
-		$aroma_out2 = $json['aroma_out'] * 1;
+		$aroma_out2 = (float)$json['aroma_out'];
 
 		$json['n_aroma_out'] = ($drops * $json['aroma_out']);
 

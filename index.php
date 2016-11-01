@@ -71,6 +71,6 @@
 			</div>
 		</div>
 		<!-- Ajax -->
-		<script src="/js/ajax.js" type="text/javascript"></script>
+		<script src="/ajax.js" type="text/javascript"></script>
 	</body>
 </html>
